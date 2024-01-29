@@ -1,12 +1,12 @@
 # Proyecto de Automatización con WebDriverIO y APPIUM
 
-Este proyecto utiliza WebDriverIO para automatizar pruebas y appium. Para los reportes de usa allure. A continuación, se presentan los comandos de ejecución básicos:
+Este proyecto utiliza cypress para automatizar pruebas. Para los reportes de usa allure. A continuación, se presentan los comandos de ejecución básicos:
 
 ## Ejecución de pruebas
 
-npx wdio
-allure generate --clean allure-results && allure open
+1. cypress run --headed --env allure=true
+2. allure generate allure-results
 
 ## Reportes generados
 
-El reporte lo mostre en el video, no se versiono para que el proyecto no sea tan pesado.
+El reporte esta en la ruta allure-report/index.html
