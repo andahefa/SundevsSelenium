@@ -1,0 +1,10 @@
+
+node_modules/
+allure-reports/
+allure-results/
+
+.DS_Store
+.vscode
+.env
+npm-debug.log
+yarn-error.log

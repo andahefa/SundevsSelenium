@@ -1,0 +1,21 @@
+{
+  "name": "sundevs",
+  "version": "1.0.0",
+  "description": "E2E Entrevista Sundevs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "sundevs",
+    "cypress"
+  ],
+  "author": "davidhernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.1",
+    "cypress": "^13.6.3"
+  }
+}
